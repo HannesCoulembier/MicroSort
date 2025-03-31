@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html class="fouc-barrier" style="height: 100%;">
+    
+<head class="templates-head"> 
+    <title>MicroSort</title>
+    <script src="static/scripts/templates.js" async="false"></script>
+
+    <!-- This page loads stylesheets with javascript, causing FOUC's. To prevent this, we add this FOUC barrier (which should also be added as a class in the <html> tag).
+		When the templates class is finished, it will automatically remove the barrier, making the browser render the page. -->
+	<style type="text/css">.fouc-barrier { display: none; }</style>
+</head>
+
+<body style="height: 100%;">
+    <section style="min-height:100%;background-color: #79b92e">
+        <div class="container" style="padding:5%;">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div>
+                        
+                        <a href="compare.html" class="btn btn-blue">Filters configureren</a>
+                        <a href="compare.html" class="btn btn-blue">Sorteren</a>
+                        <table id="main-table">
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+	<!-- Placeholder for javascript imports (imported using the templates.js file) -->
+	<div style="display: none;" class="templates-scripts"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="static/scripts/compare.js"></script>
+</body>
+
+</html>

@@ -3,7 +3,7 @@ $(document).ready(function () {
         menu: '#nav-top, #nav-mobile',
         lockAnchors: false,
 
-        anchors: ['intro', 'about'],
+        anchors: ['intro', 'about', 'to-compare'],
         navigation: false,
         slidesNavigation: false,
 

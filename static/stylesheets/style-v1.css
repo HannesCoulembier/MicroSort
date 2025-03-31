@@ -480,13 +480,23 @@ optgroup {
 }
 
 table {
+  font-family: arial, sans-serif;
   border-collapse: collapse;
-  border-spacing: 0;
+  width: 100%;
 }
 
-td,
-th {
-  padding: 0;
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
 
@@ -9056,9 +9066,8 @@ section.hero-partners~section li:before {
 }
 
 
-#section-home {
-  background-image: url("/static/media/home/home.jpg");
-  background-size: cover;
+#section-tocompare {
+  background-color: #faa925;
 }
 
 
@@ -9082,7 +9091,7 @@ section.hero-partners~section li:before {
 }
 
 #section-intro {
-  background-color: #faa925;
+  background-color: #0071b9;
 }
 
 #section-ebec {
@@ -9471,6 +9480,7 @@ body {
   min-width: 100%;
   min-height: 100%;
 }
+
 
 
 /*# sourceMappingURL=app.css.map */
