@@ -59,7 +59,7 @@ function applyTemplates() {
 			<!-- CSS -->
 			<link rel="stylesheet" type="text/css" onload="loadedStylesheetCallback();" class="dynamic-stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 			<link rel="stylesheet" type="text/css" onload="loadedStylesheetCallback();" class="dynamic-stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.1/jquery.fullPage.css">
-			<link rel="stylesheet" type="text/css" onload="loadedStylesheetCallback();" class="dynamic-stylesheet" href="/static/stylesheets/style-v1.css">
+			<link rel="stylesheet" type="text/css" onload="loadedStylesheetCallback();" class="dynamic-stylesheet" href="static/stylesheets/style-v1.css">
 
 			<!-- FONTS -->
 			<link rel='stylesheet' type='text/css' onload="loadedStylesheetCallback();" class="dynamic-stylesheet" href='https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700'>
@@ -68,19 +68,19 @@ function applyTemplates() {
 			<link rel="stylesheet" type='text/css' onload="loadedStylesheetCallback();" class="dynamic-stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 			
 			<!-- ICONS -->
-			<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/static/media/ico/apple-touch-icon-57x57.png" />
-			<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/media/ico/apple-touch-icon-114x114.png" />
-			<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/media/ico/apple-touch-icon-72x72.png" />
-			<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/media/ico/apple-touch-icon-144x144.png" />
-			<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/static/media/ico/apple-touch-icon-60x60.png" />
-			<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/media/ico/apple-touch-icon-120x120.png" />
-			<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/media/ico/apple-touch-icon-76x76.png" />
-			<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/media/ico/apple-touch-icon-152x152.png" />
-			<link rel="icon" type="image/png" href="/static/media/ico/favicon-196x196.png" sizes="196x196" />
-			<link rel="icon" type="image/png" href="/static/media/ico/favicon-96x96.png" sizes="96x96" />
-			<link rel="icon" type="image/png" href="/static/media/ico/favicon-32x32.png" sizes="32x32" />
-			<link rel="icon" type="image/png" href="/static/media/ico/favicon-16x16.png" sizes="16x16" />
-			<link rel="icon" type="image/png" href="/static/media/ico/favicon-128.png" sizes="128x128" />
+			<link rel="apple-touch-icon-precomposed" sizes="57x57" href="static/media/ico/apple-touch-icon-57x57.png" />
+			<link rel="apple-touch-icon-precomposed" sizes="114x114" href="static/media/ico/apple-touch-icon-114x114.png" />
+			<link rel="apple-touch-icon-precomposed" sizes="72x72" href="static/media/ico/apple-touch-icon-72x72.png" />
+			<link rel="apple-touch-icon-precomposed" sizes="144x144" href="static/media/ico/apple-touch-icon-144x144.png" />
+			<link rel="apple-touch-icon-precomposed" sizes="60x60" href="static/media/ico/apple-touch-icon-60x60.png" />
+			<link rel="apple-touch-icon-precomposed" sizes="120x120" href="static/media/ico/apple-touch-icon-120x120.png" />
+			<link rel="apple-touch-icon-precomposed" sizes="76x76" href="static/media/ico/apple-touch-icon-76x76.png" />
+			<link rel="apple-touch-icon-precomposed" sizes="152x152" href="static/media/ico/apple-touch-icon-152x152.png" />
+			<link rel="icon" type="image/png" href="static/media/ico/favicon-196x196.png" sizes="196x196" />
+			<link rel="icon" type="image/png" href="static/media/ico/favicon-96x96.png" sizes="96x96" />
+			<link rel="icon" type="image/png" href="static/media/ico/favicon-32x32.png" sizes="32x32" />
+			<link rel="icon" type="image/png" href="static/media/ico/favicon-16x16.png" sizes="16x16" />
+			<link rel="icon" type="image/png" href="static/media/ico/favicon-128.png" sizes="128x128" />
 			<meta name="application-name" content="&nbsp;"/>
 			<meta name="msapplication-TileColor" content="#FFFFFF" />
 			<meta name="msapplication-TileImage" content="mstile-144x144.png" />
@@ -102,7 +102,7 @@ function applyTemplates() {
 		addScript(el, "https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.1/jquery.fullPage.js");
 		addScript(el, "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js");
 		addScript(el, "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js");
-		addScript(el, "/static/scripts/script-v1.js");
+		addScript(el, "static/scripts/script-v1.js");
 	});
 }
 
