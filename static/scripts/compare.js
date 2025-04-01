@@ -1,4 +1,5 @@
 let controllerData;
+let filterconfig;
 function renderTable() {
 
     topRow = document.createElement('tr');
@@ -21,18 +22,21 @@ function renderTable() {
 }
 
 $(document).ready(()=>{
-    (()=>{
-        fetch('controllers.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-                return response.json();  
-            })
-            .then(data => {
-                controllerData = data;
-                renderTable();
-            })  
-            .catch(error => console.error('Failed to fetch data:', error)); 
-    })()
+
+    fetch('controllers.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();  
+        })
+        .then(data => {
+            controllerData = data;
+            renderTable();
+        })  
+        .catch(error => console.error('Failed to fetch data:', error));
+    $('#filter-button').click(()=>{
+        console.log("test");
+    })
+    
 })
