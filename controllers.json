@@ -1,132 +1,113 @@
 {
     "layout":[
-        "Name",
-        "Price"
+        {"Name":"Naam"},
+        {"ClockSpeed":"Kloksnelheid (MHz)"},
+        {"Memory":"Geheugen (KB)"},
+        {"RAM":"SRAM (KB)"},
+        {"Power":"Vermogen (mW)"},
+        {"Price":"Prijs (€)"},
+        {"Usability":"Gebruiksscore (op 10)"}
     ],
     "controllers":[
         {
-            "Name":"test",
-            "Price":"€35"
+            "Name":"Arduino Uno R3",
+            "ClockSpeed":16,
+            "Memory":32,
+            "RAM":2,
+            "Power":250,
+            "Price":25,
+            "Usability":9.5,
+            "link":"https://www.tinytronics.nl/nl/arduino/officiele-arduino-boards/arduino-uno-r3"
         },
         {
-            "Name":"test2",
-            "Price":"€50"
+            "Name":"ESP32-C6-DevKitM-1",
+            "ClockSpeed":160,
+            "Memory":4000,
+            "RAM":512,
+            "Power":260,
+            "Price":12.5,
+            "Usability":8.5,
+            "link":"https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/met-wi-fi/espressif-esp32-c6-devkitm-1"
         },
         {
-            "Name":"test2",
-            "Price":"€50"
+            "Name":"Raspberry Pi Pico W",
+            "ClockSpeed":133,
+            "Memory":2000,
+            "RAM":258,
+            "Power":300,
+            "Price":8.5,
+            "Usability":8,
+            "link":"https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/met-wi-fi/raspberry-pi-pico-w-rp2040"
         },
         {
-            "Name":"test2",
-            "Price":"€50"
+            "Name":"Arduino Nano 33 IoT",
+            "ClockSpeed":48,
+            "Memory":256,
+            "RAM":32,
+            "Power":50,
+            "Price":27.59,
+            "Usability":8.5,
+            "link":"https://www.kiwi-electronics.com/nl/arduino-nano-33-iot-4332"
         },
         {
-            "Name":"test2",
-            "Price":"€50"
+            "Name":"Teensy 4.0",
+            "ClockSpeed":600,
+            "Memory":2048,
+            "RAM":1024,
+            "Power":330,
+            "Price":27.5,
+            "Usability":8,
+            "link":"https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/teensy/teensy-4.0"
         },
         {
-            "Name":"test2",
-            "Price":"€50"
+            "Name":"Arduino Mega 2560 R3",
+            "ClockSpeed":16,
+            "Memory":256,
+            "RAM":8,
+            "Power":250,
+            "Price":40.5,
+            "Usability":9,
+            "link":"https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/arduino-compatible/arduino-mega-2560-r3"
         },
         {
-            "Name":"test2",
-            "Price":"€50"
+            "Name":"Raspberry Pi Pico - RP2040",
+            "ClockSpeed":133,
+            "Memory":2000,
+            "RAM":264,
+            "Power":300,
+            "Price":5.5,
+            "Usability":7.5,
+            "link":"https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/overige/raspberry-pi-pico-rp2040"
         },
         {
-            "Name":"test2",
-            "Price":"€50"
+            "Name":"Olimex ESP32-C3-DevKit-Lipo",
+            "ClockSpeed":160,
+            "Memory":4000,
+            "RAM":400,
+            "Power":230,
+            "Price":7.75,
+            "Usability":8,
+            "link":"https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/met-wi-fi/olimex-esp32-c3-devkit-lipo"
         },
         {
-            "Name":"test2",
-            "Price":"€50"
+            "Name":"Arduino Due",
+            "ClockSpeed":80,
+            "Memory":512,
+            "RAM":100,
+            "Power":400,
+            "Price":41,
+            "Usability":7,
+            "link":"https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/arduino-compatible/arduino-due-1"
         },
         {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
-        },
-        {
-            "Name":"test2",
-            "Price":"€50"
+            "Name":"RAK4631/115000",
+            "ClockSpeed":64,
+            "Memory":1000,
+            "RAM":256,
+            "Power":100,
+            "Price":19,
+            "Usability":7.2,
+            "link":"https://www.tinytronics.nl/nl/platformen-en-systemen/rakwireless/core/rakwireless-rak4631-wisblock-core-lpwan-module-nrf52840-lora-en-ble"
         }
     ]
 }
