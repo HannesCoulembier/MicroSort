@@ -9,6 +9,30 @@
     <!-- This page loads stylesheets with javascript, causing FOUC's. To prevent this, we add this FOUC barrier (which should also be added as a class in the <html> tag).
 		When the templates class is finished, it will automatically remove the barrier, making the browser render the page. -->
 	<style type="text/css">.fouc-barrier { display: none; }</style>
+    <style>
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content label {
+          display: block;
+          margin-top: 10px;
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+    </style>
 </head>
 
 <body style="height: 100%;">
@@ -17,9 +41,17 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div>
-                        
-                        <a href="compare.html" class="btn btn-blue">Filters configureren</a>
-                        <a href="compare.html" class="btn btn-blue">Sorteren</a>
+                        <div class="dropdown">
+                            <button>Select Fruits</button>
+                            <div class="dropdown-content">
+                              <label><input type="checkbox" name="fruits" value="apple"> Apple</label>
+                              <label><input type="checkbox" name="fruits" value="orange"> Orange</label>
+                              <label><input type="checkbox" name="fruits" value="banana"> Banana</label>
+                              <label><input type="checkbox" name="fruits" value="grape"> Grape</label>
+                            </div>
+                          </div>
+                        <a id="filter-button" class="btn btn-blue">Filters configureren</a>
+                        <a id="sort-button" class="btn btn-blue">Sorteren</a>
                         <table id="main-table">
                         </table>
                     </div>
@@ -33,6 +65,31 @@
 	<div style="display: none;" class="templates-scripts"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="static/scripts/compare.js"></script>
+    <script>
+        // JavaScript to handle the dropdown behavior and collect selected values
+        document.addEventListener('click', function(event) {
+          var dropdown = document.querySelector('.dropdown-content');
+          if (!dropdown.contains(event.target)) {
+            dropdown.style.display = 'none';
+          }
+        });
+        
+        function getSelectedFruits() {
+          var checkboxes = document.querySelectorAll('.dropdown-content input[type="checkbox"]');
+          var selectedFruits = [];
+          checkboxes.forEach(function(checkbox) {
+            if (checkbox.checked) {
+              selectedFruits.push(checkbox.value);
+            }
+          });
+          return selectedFruits;
+        }
+        
+        // Example usage
+        document.querySelector('.dropdown button').addEventListener('click', function() {
+          console.log(getSelectedFruits());
+        });
+    </script>
 </body>
 
 </html>
