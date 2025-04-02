@@ -274,7 +274,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #6a994e;
+  background-color: #6a994e !important;
 }
 
 article,
@@ -4976,8 +4976,8 @@ tbody.collapse.in {
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:hover,
 .nav-tabs>li.active>a:focus {
-  color: #f2e8cf;
-  background-color: #f2e8cf;
+  color: #f2e8cf !important;
+  background-color: #f2e8cf !important;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -5286,7 +5286,7 @@ tbody.collapse.in {
   width: 22px;
   height: 2px;
   border-radius: 1px;
-  background-color: #f2e8cf;
+  background-color: #f2e8cf !important;
 }
 
 .navbar-toggle .icon-bar+.icon-bar {
@@ -8446,7 +8446,7 @@ section.hero-partners~section li:before {
 
 
 #section-tocompare {
-  background-color: #6a994e;
+  background-color: #6a994e !important;
 }
 
 
@@ -8470,7 +8470,7 @@ section.hero-partners~section li:before {
 }
 
 #section-intro {
-  background-color: #6a994e;
+  background-color: #6a994e !important;
 }
 
 #section-ebec {
@@ -8491,7 +8491,7 @@ section.hero-partners~section li:before {
 }
 
 #section-training {
-  background-color: #f2e8cf;
+  background-color: #f2e8cf !important;
 }
 
 #section-partners {
@@ -8499,9 +8499,9 @@ section.hero-partners~section li:before {
 }
 
 #section-contact {
-  background-color: #6a994e;
+  background-color: #6a994e !important;
   text-align: left;
-  color: #f2e8cf;
+  color: #f2e8cf !important;
 }
 
 
@@ -8509,7 +8509,7 @@ section.hero-partners~section li:before {
 #section-agenda {
   background-color: #ffbc00;
   text-align: left;
-  color: #f2e8cf;
+  color: #f2e8cf !important;
 }
 
 nav .nav li>a,
@@ -8533,20 +8533,20 @@ nav #nav-top li>a,
 nav #nav-top li>a:hover,
 nav #nav-top li>a:focus,
 nav #nav-top li>a:active:focus {
-  color: #f2e8cf;
+  color: #f2e8cf !important;
   opacity: 0.4;
 }
 
 nav li.active>a,
 nav li.active>a:hover,
 nav li.active>a:focus li.active>a:active:focus {
-  color: #f2e8cf;
+  color: #f2e8cf !important;
 }
 
 nav li.active>a span,
 nav li.active>a:hover span,
 nav li.active>a:focus li.active>a:active:focus span {
-  border-bottom: 2px solid #f2e8cf;
+  border-bottom: 2px solid #f2e8cf !important;
 }
 
 nav #nav-top li.active>a,
@@ -8557,7 +8557,7 @@ nav #nav-top li.active>a:focus #nav-top li.active>a:active:focus {
 
 nav #nav-top li:hover>a span,
 nav #nav-top li.active>a span {
-  border-bottom: 2px solid #f2e8cf;
+  border-bottom: 2px solid #f2e8cf !important;
 }
 
 nav #nav-top.about>li>a span {
@@ -8648,7 +8648,7 @@ nav #nav-top.about>li.active[data-menuanchor='about']>a span {
 }
 
 .mobilemenu .menu ul span {
-  color: #f2e8cf;
+  color: #f2e8cf !important;
 }
 
 .mobilemenu .menu ul li {
@@ -8747,7 +8747,7 @@ a.btn {
   border: none;
   text-transform: uppercase;
   color:inherit;
-  background-color: #386641;
+  background-color: #386641 !important;
 }
 
 :focus {
@@ -8756,7 +8756,7 @@ a.btn {
 
 body {
   font-family: "Lato", sans-serif !important;
-  color: #f2e8cf;
+  color: #f2e8cf !important;
   width:100vw;
 }
 
@@ -8775,19 +8775,19 @@ body {
 
 #page-header {
   width:100%;
-  color:#6a994e;
+  color:#6a994e !important;
   z-index:1;
   position: sticky;
-  background-color: #f2e8cf;
+  background-color: #f2e8cf !important;
 }
 
 .widget {
-  background-color: #386641;
+  background-color: #386641 !important;
   border-radius: 25px;
   padding: 5px;
   margin: 5px;
 }
 
 :root {
-  color-scheme: light only;
+  color-scheme: light only !important;
 }
