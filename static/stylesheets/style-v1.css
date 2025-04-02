@@ -8757,6 +8757,7 @@ a.btn {
 body {
   font-family: "Lato", sans-serif !important;
   color: #f2e8cf;
+  width:100vw;
 }
 
 #error {
@@ -8772,15 +8773,21 @@ body {
 
 /*# sourceMappingURL=app.css.map */
 
-
-
-select {
-  color:#000;
-}
 #page-header {
   width:100%;
   color:#6a994e;
   z-index:1;
-  position: fixed;
+  position: sticky;
   background-color: #f2e8cf;
+}
+
+.widget {
+  background-color: #386641;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 5px;
+}
+
+:root {
+  color-scheme: light only;
 }

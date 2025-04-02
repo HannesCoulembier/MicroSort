@@ -73,8 +73,8 @@ $(document).ready(()=>{
         filterconfig["SortBy"]=$("#sortBy").children("option:selected").val();
         renderTable();
     })
-    $('#order').change(()=>{
-        filterconfig["Reversed"]=$("#order").is(":checked");
+    $('#order').click(()=>{
+        filterconfig["Reversed"]=!filterconfig["Reversed"];
         renderTable();
     })
     
