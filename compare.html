@@ -9,34 +9,32 @@
     <!-- This page loads stylesheets with javascript, causing FOUC's. To prevent this, we add this FOUC barrier (which should also be added as a class in the <html> tag).
 		When the templates class is finished, it will automatically remove the barrier, making the browser render the page. -->
 	<style type="text/css">.fouc-barrier { display: none; }</style>
-    <style>
-        .dropdown {
-          position: relative;
-          display: inline-block;
-        }
-        
-        .dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: #f9f9f9;
-          min-width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 1;
-        }
-        
-        .dropdown-content label {
-          display: block;
-          margin-top: 10px;
-        }
-        
-        .dropdown:hover .dropdown-content {
-          display: block;
-        }
-    </style>
 </head>
 
 <body style="height: 100%;">
-    <section style="min-height:100%;background-color: #79b92e">
+    <div id="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="text-left">
+                        <h3><a href="/index.html">Home</a></h3>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="text-center">
+                        <h3>MicroSort</h3>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="text-right">
+                        <img src="static/media/logo_UGent_NL/logo_UGent_NL_RGB_2400_wit.png" style="width:40%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section style="min-height:100%; min-width:100%; background-color: #6a994e">
         <div class="container" style="padding:5%;">
             <div class="row">
                 <div class="col-sm-12">
