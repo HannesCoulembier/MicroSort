@@ -7958,7 +7958,7 @@ div.polaroids a:hover {
 }
 
 body {
-  font-size: 180%;
+  font-size: 160%;
   line-height: 1.5;
 }
 
@@ -8398,6 +8398,13 @@ section.hero-partners~section li:before {
 #fullpage h1 {
   font-weight: 100;
   padding-bottom: 20px;
+  max-width: 570px;
+  margin: auto;
+}
+#fullpage h3 {
+  max-width: 570px;
+  margin: auto;
+
 }
 
 #fullpage p {
@@ -8417,6 +8424,13 @@ section.hero-partners~section li:before {
   }
   #fullpage h1 {
     padding-bottom: 0px;
+  }
+  body {
+    font-size: 120%;
+  }
+  .container {
+
+    padding-top:0px;
   }
 }
 
