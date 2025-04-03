@@ -19,8 +19,17 @@ function renderTable() {
 
     topRow = document.createElement('tr');
     for (const header of controllerData.layout) {
+        let title=Object.keys(header)[0];
         const cell = document.createElement('th');
-        cell.innerText = header[Object.keys(header)[0]];
+        if (title == 'Name') {
+            cell.innerText = header[title];
+        }
+        else {
+            const link = document.createElement('a');
+            link.href = 'info.html#'+controllerData.slides[title];
+            link.innerText = header[title];
+            cell.appendChild(link);
+        }
         topRow.appendChild(cell);
     }
     $('#main-table').append(topRow);

@@ -4,7 +4,7 @@ $(document).ready(function () {
         lockAnchors: false,
         scrollingSpeed: 400,
 
-        anchors: ['intro', 'to-compare', 'contact'],
+        anchors: ['slide-1', 'slide-2', 'slide-3', 'slide-4', 'slide-5', 'slide-6'],
         navigation: false,
         slidesNavigation: false,
 

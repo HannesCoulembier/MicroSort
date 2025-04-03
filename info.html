@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html class="fouc-barrier">
+    
+<head class="templates-head"> 
+    <title>MicroSort</title>
+    <script src="static/scripts/templates.js" async="false"></script>
+
+    <!-- This page loads stylesheets with javascript, causing FOUC's. To prevent this, we add this FOUC barrier (which should also be added as a class in the <html> tag).
+		When the templates class is finished, it will automatically remove the barrier, making the browser render the page. -->
+	<style type="text/css">.fouc-barrier { display: none; }</style>
+</head>
+
+<body>
+    <div id="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="text-left">
+                        <h3><a href="/index.html">Home</a></h3>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="text-center">
+                        <h3>MicroSort</h3>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="text-right">
+                        <h3><a href="https://www.ugent.be/" target="_blank">UGENT</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fullpage">
+        <div class="section" id="section-1" data-anchor="slide-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center">
+
+                            <h1>Section 1</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="section-2" data-anchor="slide-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center">
+
+                            <h1>Section 2</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="section-3" data-anchor="slide-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center">
+
+                            <h1>Section 3</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="section-4" data-anchor="slide-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center">
+
+                            <h1>Section 3</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="section-5" data-anchor="slide-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center">
+
+                            <h1>Section 5</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="section-6" data-anchor="slide-6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center">
+
+                            <h1>Section 6</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-sticky">
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav" id="nav-top">
+                <li data-menuanchor="slide-1" class="active"><a href="#slide-1"><span>Section 1</span></a></li>
+                <li data-menuanchor="slide-2"><a href="#slide-2"><span>Section 2</span></a></li>
+                <li data-menuanchor="slide-3"><a href="#slide-3"><span>Section 3</span></a></li>
+                <li data-menuanchor="slide-4"><a href="#slide-4"><span>Section 4</span></a></li>
+                <li data-menuanchor="slide-5"><a href="#slide-5"><span>Section 5</span></a></li>
+                <li data-menuanchor="slide-6"><a href="#slide-6"><span>Section 6</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <nav class="mobilemenu">
+        <div class="menu">
+            <ul class="nav navbar-nav text-center" id="nav-mobile">
+                <li data-menuanchor="slide-1" class="active"><a href="#slide-1"><span>Section 1</span></a></li>
+                <li data-menuanchor="slide-2"><a href="#slide-2"><span>Section 2</span></a></li>
+                <li data-menuanchor="slide-3"><a href="#slide-3"><span>Section 3</span></a></li>
+                <li data-menuanchor="slide-4"><a href="#slide-4"><span>Section 4</span></a></li>
+                <li data-menuanchor="slide-5"><a href="#slide-5"><span>Section 5</span></a></li>
+                <li data-menuanchor="slide-6"><a href="#slide-6"><span>Section 6</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+	<!-- Placeholder for javascript imports (imported using the templates.js file) -->
+	<div style="display: none;" class="templates-scripts"></div>
+</body>
+
+</html>

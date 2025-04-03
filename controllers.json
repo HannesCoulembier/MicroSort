@@ -8,6 +8,14 @@
         {"Price":"Prijs (€)"},
         {"Usability":"Gebruiksscore (op 10)"}
     ],
+    "slides":{
+        "ClockSpeed":"slide-1",
+        "Memory":"slide-2",
+        "RAM":"slide-3",
+        "Power":"slide-4",
+        "Price":"slide-5",
+        "Usability":"slide-6"
+    },
     "controllers":[
         {
             "Name":"Arduino Uno R3",
