@@ -480,8 +480,6 @@ optgroup {
 }
 
 table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
   color: #000;
   width: 100%;
 }
@@ -560,9 +558,6 @@ tr:nth-child(even) {
   }
   .label {
     border: 1px solid #000;
-  }
-  .table {
-    border-collapse: collapse !important;
   }
   .table td,
   .table th {
@@ -3094,10 +3089,6 @@ pre code {
   }
 }
 
-table {
-  background-color: transparent;
-}
-
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -3109,11 +3100,6 @@ th {
   text-align: left;
 }
 
-.table {
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 20px;
-}
 
 .table>thead>tr>th,
 .table>thead>tr>td,
@@ -3143,10 +3129,6 @@ th {
 
 .table>tbody+tbody {
   border-top: 2px solid #ddd;
-}
-
-.table .table {
-  background-color: #fff;
 }
 
 .table-condensed>thead>tr>th,
@@ -3325,9 +3307,7 @@ table th[class*="col-"] {
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #ddd;
   }
-  .table-responsive>.table {
-    margin-bottom: 0;
-  }
+
   .table-responsive>.table>thead>tr>th,
   .table-responsive>.table>thead>tr>td,
   .table-responsive>.table>tbody>tr>th,
@@ -6509,12 +6489,6 @@ button.list-group-item-danger:focus {
   border-top-width: 0;
 }
 
-.panel>.table,
-.panel>.table-responsive>.table,
-.panel>.panel-collapse>.table {
-  margin-bottom: 0;
-}
-
 .panel>.table caption,
 .panel>.table-responsive>.table caption,
 .panel>.panel-collapse>.table caption {
@@ -8784,10 +8758,47 @@ body {
 .widget {
   background-color: #386641 !important;
   border-radius: 25px;
+  width:fit-content;
   padding: 5px;
+  padding-left:10px;
+  padding-right:10px;
   margin: 5px;
 }
 
 :root {
   color-scheme: light only !important;
+}
+
+#filter-content {
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  color: #6a994e;
+  background-color: #f2e8cf;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 5px;
+  margin: 5px;
+  text-align: right;
+}
+
+.show {
+  display:block;
+}
+
+::placeholder {
+  opacity: 1; /* for Firefox */
+  color: #c1d989;
+}
+
+.input-text {
+  background-color: #f2e8cf;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 3px;
+  width: 50px;
+}
+
+.input-label {
+  width:100%;
 }
