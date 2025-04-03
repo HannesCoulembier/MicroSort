@@ -2579,7 +2579,6 @@ pre code {
   margin-left: 100%;
 }
 
-@media (min-width: 768px) {
   .col-sm-1,
   .col-sm-2,
   .col-sm-3,
@@ -2747,7 +2746,7 @@ pre code {
   .col-sm-offset-12 {
     margin-left: 100%;
   }
-}
+
 
 @media (min-width: 992px) {
   .col-md-1,
@@ -7959,7 +7958,7 @@ div.polaroids a:hover {
 }
 
 body {
-  font-size: 160%;
+  font-size: 180%;
   line-height: 1.5;
 }
 
@@ -8416,6 +8415,9 @@ section.hero-partners~section li:before {
     width: 70%;
     height: auto;
   }
+  #fullpage h1 {
+    padding-bottom: 0px;
+  }
 }
 
 
@@ -8749,9 +8751,13 @@ body {
 
 #page-header {
   width:100%;
+  padding:10px;
   color:#6a994e !important;
   z-index:1;
   position: sticky;
+  display: grid;
+  align-content: center;
+  vertical-align: middle;
   background-color: #f2e8cf !important;
 }
 
@@ -8801,4 +8807,9 @@ body {
 
 .input-label {
   width:100%;
+}
+
+.container {
+  height: 100%;
+  padding-top:30px;
 }
