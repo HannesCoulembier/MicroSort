@@ -77,7 +77,7 @@ $(document).ready(()=>{
                 if (title == 'Name'){ continue; }
                 let entry = document.createElement('div');
                 let label = document.createElement('label');
-                label.innerText = title+":";
+                label.innerText = header[title]+":";
                 label.classList.add('input-label');
                 let min = document.createElement('input');
                 min.placeholder = "min";
